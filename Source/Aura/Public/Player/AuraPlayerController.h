@@ -37,6 +37,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> MoveAction;
 
-	IMouseOver* PreviousActor;
-	IMouseOver* CurrentActor;
+	TObjectPtr<IMouseOver> PreviousActor;
+	TObjectPtr<IMouseOver> CurrentActor;
 };
