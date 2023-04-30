@@ -31,6 +31,8 @@ protected:
 	UPROPERTY()
 	TObjectPtr<UAttributeSet> AttributeSet;
 
+	virtual void InitAbilityActorInfo();
+
 public:
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 };
